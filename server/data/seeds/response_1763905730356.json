@@ -1,0 +1,451 @@
+{
+  "data": [
+    {
+      "id": "685d1470fe4d5c3b-01",
+      "name": "American Standard Version (Byzantine Text with Apocrypha)",
+      "abbr": "ASVBT",
+      "language": "english",
+      "lang": "eng"
+    },
+    {
+      "id": "bba9f40183526463-01",
+      "name": "Berean Standard Bible",
+      "abbr": "BSB",
+      "language": "english",
+        },
+        {
+          "id": "AU",
+          "name": "Australia",
+          "nameLocal": "Australia"
+        },
+        {
+          "id": "CA",
+          "name": "Canada",
+          "nameLocal": "Canada"
+        },
+        {
+          "id": "AG",
+          "name": "Antigua and Barbuda",
+          "nameLocal": "Antigua and Barbuda"
+        },
+        {
+          "id": "BS",
+          "name": "Bahamas",
+          "nameLocal": "Bahamas"
+        },
+        {
+          "id": "BB",
+          "name": "Barbados",
+          "nameLocal": "Barbados"
+        },
+        {
+          "id": "BZ",
+          "name": "Belize",
+          "nameLocal": "Belize"
+        },
+        {
+          "id": "DM",
+          "name": "Dominica",
+          "nameLocal": "Dominica"
+        },
+        {
+          "id": "DO",
+          "name": "Dominican Republic",
+          "nameLocal": "Dominican Republic"
+        },
+        {
+          "id": "AS",
+          "name": "American Samoa",
+          "nameLocal": "American Samoa"
+        },
+        {
+          "id": "GU",
+          "name": "Guam",
+          "nameLocal": "Guam"
+        },
+        {
+          "id": "HT",
+          "name": "Haiti",
+          "nameLocal": "Haiti"
+        },
+        {
+          "id": "GY",
+          "name": "Guyana",
+          "nameLocal": "Guyana"
+        },
+        {
+          "id": "IL",
+          "name": "Israel",
+          "nameLocal": "Israel"
+        },
+        {
+          "id": "IE",
+          "name": "Ireland",
+          "nameLocal": "Ireland"
+        },
+        {
+          "id": "JM",
+          "name": "Jamaica",
+          "nameLocal": "Jamaica"
+        },
+        {
+          "id": "MT",
+          "name": "Malta",
+          "nameLocal": "Malta"
+        },
+        {
+          "id": "NZ",
+          "name": "New Zealand",
+          "nameLocal": "New Zealand"
+        },
+        {
+          "id": "PH",
+          "name": "Philippines",
+          "nameLocal": "Philippines"
+        },
+        {
+          "id": "KN",
+          "name": "Saint Kitts and Nevis",
+          "nameLocal": "Saint Kitts and Nevis"
+        },
+        {
+          "id": "LC",
+          "name": "Saint Lucia",
+          "nameLocal": "Saint Lucia"
+        },
+        {
+          "id": "VC",
+          "name": "Saint Vincent and the Grenadines",
+          "nameLocal": "Saint Vincent and the Grenadines"
+        },
+        {
+          "id": "TT",
+          "name": "Trinidad and Tobago",
+          "nameLocal": "Trinidad and Tobago"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "nameLocal": "Nigeria"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "nameLocal": "South Africa"
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2025-10-01T02:35:46.000Z",
+      "audioBibles": []
+    },
+    {
+      "id": "6bab4d6c61b31b80-01",
+      "name": "Brenton English Septuagint (Updated Spelling and Formatting)",
+      "abbr": "engLXXup",
+      "language": "english",
+    },
+    {
+      "id": "65bfdebd704a8324-01",
+      "name": "Brenton English translation of the Septuagint",
+      "abbr": "engbrent",
+      "language": "english",
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2025-09-28T19:38:01.000Z",
+      "audioBibles": []
+    },
+    {
+      "id": "55212e3cf5d04d49-01",
+      "name": "Cambridge Paragraph Bible of the KJV",
+      "abbr": "engKJVCPB",
+      "language": "english",
+    },
+    {
+      "id": "179568874c45066f-01",
+      "name": "Douay-Rheims American 1899",
+      "abbr": "engDRA",
+      "language": "english",
+    },
+    {
+      "id": "55ec700d9e0d77ea-01",
+      "name": "English Majority Text Version",
+      "abbr": "engEMTV",
+      "language": "english",
+    },
+    {
+      "id": "65eec8e0b60e656b-01",
+      "name": "Free Bible Version",
+      "abbr": "FBV",
+      "language": "english",
+    },
+    {
+      "id": "c315fa9f71d4af3a-01",
+      "name": "Geneva Bible",
+      "abbr": "enggnv",
+      "language": "english",
+    },
+    {
+      "id": "bf8f1c7f3f9045a5-01",
+      "name": "JPS TaNaKH 1917",
+      "abbr": "engojps",
+      "language": "english",
+    },
+    {
+      "id": "de4e12af7f28f599-01",
+      "name": "King James (Authorised) Version",
+      "abbr": "engKJV",
+      "language": "english",
+    },
+    {
+      "id": "de4e12af7f28f599-02",
+      "name": "King James (Authorised) Version",
+      "abbr": "engKJV",
+      "language": "english",
+    },
+    {
+      "id": "01b29f4b342acc35-01",
+      "name": "Literal Standard Version",
+      "abbr": "LSV",
+      "language": "english",
+        },
+    {
+      "id": "40072c4a5aba4022-01",
+      "name": "Revised Version 1885",
+      "abbr": "engRV",
+      "language": "english",
+    },
+    {
+      "id": "ec290b5045ff54a5-01",
+      "name": "Targum Onkelos Etheridge",
+      "abbr": "engOKE",
+      "language": "english",
+    },
+    {
+      "id": "2f0fd81d7b85b923-01",
+      "name": "The English New Testament According to Family 35",
+      "abbr": "engF35",
+      "language": "english",
+    },
+    {
+      "id": "06125adad2d5898a-01",
+      "name": "The Holy Bible, American Standard Version",
+      "abbr": "ASV",
+      "language": "english",
+    },
+    {
+      "id": "c89622d31b60c444-02",
+      "name": "The Orthodox Jewish Bible",
+      "abbr": "TOJB2011",
+      "language": "english",
+    },
+    {
+      "id": "32339cf2f720ff8e-01",
+      "name": "The Text-Critical English New Testament",
+      "abbr": "TCENT",
+      "language": "english",
+    },
+    {
+      "id": "66c22495370cdfc0-01",
+      "name": "Translation for Translators",
+      "abbr": "T4T",
+      "language": "english",
+    },
+    {
+      "id": "9879dbb7cfe39e4d-01",
+      "name": "World English Bible",
+      "abbr": "WEB",
+      "language": "english",
+    },
+        {
+          "id": "105a06b6146d11e7-01",
+          "name": "English - World English Bible 2013 (Drama NT)",
+          "abbr": "WEB",
+          "language: "english"
+    
+      
+    }
+    {
+    "id" : "9879dbb7cfe39e4d-0
+    "english"
+        {
+          "id": "105a06b6146d11e7-01",
+          "name": "English - World English Bible 2013 (Drama NT)",
+          "nameLocal": "English - World English Bible 2013 (Drama NT)",
+    
+      ]
+    }
+    ": "9879dbb7cfe39e4d-0
+    "english"
+        {
+          "id": "105a06b6146d11e7-01",
+          "name": "English - World English Bible 2013 (Drama NT)",
+          "nameLocal": "English - World English Bible 2013 (Drama NT)",
+    
+      ]
+    }
+    ": "9879dbb7cfe39e4d-0
+    "english"
+        {
+          "id": "105a06b6146d11e7-01",
+          "name": "English - World English Bible 2013 (Drama NT)",
+          "nameLocal": "English - World English Bible 2013 (Drama NT)",
+    
+      ]
+    }
+    ": "7142879509583d59-0
+    "english"
+    },
+    {
+      "id": "7142879509583d59-02",
+      "name": "World English Bible British Edition",
+      "abbr": "WEBBE",
+      "language": "english",
+    },
+    {
+      "id": "7142879509583d59-03",
+      "name": "World English Bible British Edition",
+      "abbr": "WEBBE",
+      "language": "english",
+    },
+    {
+      "id": "7142879509583d59-04",
+      "name": "World English Bible British Edition",
+      "abbr": "WEBBE",
+      "language": "english",
+    },
+    {
+      "id": "72f4e6dc683324df-01",
+      "name": "World English Bible Updated",
+      "abbr": "engWEBU",
+      "language": "english",
+    },
+    {
+      "id": "72f4e6dc683324df-02",
+      "name": "World English Bible Updated",
+      "abbr": "engWEBU",
+      "language": "english",
+    },
+    {
+      "id": "72f4e6dc683324df-03",
+      "name": "World English Bible Updated",
+      "abbr": "engWEBU",
+      "language": "english",
+    },
+    {
+      "id": "32664dc3288a28df-03",
+      "name": "World English Bible, American English Edition, without Strong's Numbers",
+      "abbr": "engWEBUS",
+      "language": "english",
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2024-06-28T16:05:13.000Z",
+      "audioBibles": []
+    },
+    {
+      "id": "32664dc3288a28df-01",
+      "name": "World English Bible, American English Edition, without Strong's Numbers",
+      "abbr": "engWEBUS",
+      "language": "english",
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2025-10-25T02:18:59.000Z",
+      "audioBibles": []
+    },
+    {
+      "id": "32664dc3288a28df-02",
+      "name": "World English Bible, American English Edition, without Strong's Numbers",
+      "abbr": "engWEBUS",
+      "language": "english",
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2025-10-25T02:20:18.000Z",
+      "audioBibles": []
+    },
+    {
+      "id": "f72b840c855f362c-04",
+      "name": "World Messianic Bible",
+      "abbr": "WMB",
+      "language": "english",
+    },
+    {
+      "id": "04da588535d2f823-04",
+      "name": "World Messianic Bible British Edition",
+      "abbr": "WMBBE",
+      "language": "english",
+        },
+        {
+          "id": "BS",
+          "name": "Bahamas",
+          "nameLocal": "Bahamas"
+        },
+        {
+          "id": "BZ",
+          "name": "Belize",
+          "nameLocal": "Belize"
+        },
+        {
+          "id": "IO",
+          "name": "British Indian Ocean Territory",
+          "nameLocal": "British Indian Ocean Territory"
+        },
+        {
+          "id": "VG",
+          "name": "Virgin Islands, British",
+          "nameLocal": "Virgin Islands, British"
+        },
+        {
+          "id": "CA",
+          "name": "Canada",
+          "nameLocal": "Canada"
+        },
+        {
+          "id": "KE",
+          "name": "Kenya",
+          "nameLocal": "Kenya"
+        },
+        {
+          "id": "FM",
+          "name": "Micronesia, Federated States of",
+          "nameLocal": "Micronesia, Federated States of"
+        },
+        {
+          "id": "NZ",
+          "name": "New Zealand",
+          "nameLocal": "New Zealand"
+        },
+        {
+          "id": "PG",
+          "name": "Papua New Guinea",
+          "nameLocal": "Papua New Guinea"
+        },
+        {
+          "id": "WS",
+          "name": "Samoa",
+          "nameLocal": "Samoa"
+        },
+        {
+          "id": "SG",
+          "name": "Singapore",
+          "nameLocal": "Singapore"
+        },
+        {
+          "id": "TO",
+          "name": "Tonga",
+          "nameLocal": "Tonga"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom of Great Britain and Northern Ireland",
+          "nameLocal": "United Kingdom of Great Britain and Northern Ireland"
+        }
+      ],
+      "type": "text",
+      "updatedAt": "2025-10-25T02:14:26.000Z",
+      "audioBibles": []
+    }
+  ]
+}
