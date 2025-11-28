@@ -1,6 +1,5 @@
-const knex = require('knex')
-const config = require('../knexfile')
-const env = process.env.ENV || "development"
+const {Pool} = require('pg');
 
+const pool = new Pool()
 
-module.exports = knex(config[env])
+module.exports = pool

@@ -1,26 +1,25 @@
-const db = require("../config/DBconfig")
+const pool = require('../config/DBconfig')
 
-
-async function getChapter(version, book, chapterNumber) {
-    const chapter = await db(version).where({book, chapter: chapterNumber}).select("text")
-    return chapter
+// List of books in a specific version
+async function getBooks(version) {
+    const books = await pool.query(`select book_id, book from ${version} group by (book_id, book) order by book_id;`)
+    return books.rows
 }
-
-async function getChapterList(version, book) {
-    const chapterList = await db(version).where("book", book).select("chapter")
-    const results = chapterList.filter((a,b) => b.chapter !== a.chapter )
-    return results
+// List of chapters in a specific book and version
+async function getChapterCount(version, book_id) {
+    const chapters = await pool.query(`select chapter from ${version} where book_id = ${book_id} group by chapter;`)
+    return chapters.rows
 }
-
-async function getBookList(version) {
-    const list = await db(version).select("book")
-    const results = list.filter((a, b) => b.book !== a.book)
-    return results
+// Bible text for a specific book, chapter, and version
+async function requestTxt(version, book_id, chapter) {
+ const response = await pool.query(`select text from ${version} where (book_id, chapter) = (${book_id}, ${chapter}) order by verse;`)
+ return response.rows
 }
 
 
 module.exports = {
-    getChapter,
-    getChapterList,
-    getBookList
+    getBooks,
+    
+    getChapterCount,
+    requestTxt
 }

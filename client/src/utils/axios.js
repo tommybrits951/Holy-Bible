@@ -1,15 +1,8 @@
-import axios from 'axios'
+import axios from 'axios';
 
-const baseUrl = "https://api.scripture.api.bible/v1/bibles"
-const apiKey = "1b566dda217480217ceac049b61d801c"
-const axiosConfig =  axios.create({
-    baseURL: baseUrl,
-    withCredentials: true,
-    headers: {
-        "api-key": apiKey,
-        "Access-Control-Allow-Credentials": true
-    }
+const axiosConfig = axios.create({
+    baseURL: "http://localhost:9000",
+    withCredentials: true
 })
 
-
-export default axiosConfig
+export default axiosConfig;

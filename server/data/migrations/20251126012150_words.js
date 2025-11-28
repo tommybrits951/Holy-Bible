@@ -8,6 +8,7 @@ exports.up = function(knex) {
     tbl.integer("chapter").notNullable()
     tbl.integer("version_id").unsigned().references("version_id").inTable("versions")
     tbl.integer("book_id").unsigned().references("book_id").inTable("books")
+    tbl.string("book").notNullable()
     tbl.bigInteger("verse_number").notNullable()
     tbl.string("text").notNullable()
   })

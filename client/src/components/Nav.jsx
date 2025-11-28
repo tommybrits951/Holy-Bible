@@ -1,15 +1,14 @@
 import {useContext} from 'react'
-import { BibleContext } from '../App'
+import { BibleContext } from '../context/BibleContext';
 import { Link } from 'react-router'
 export default function Nav() {
-    const {lang, book, chapter, bookList} = useContext(BibleContext)
-
-
-    return (
-    <nav className='fixed sm:bottom-0 left-0 w-full sm:h-12 bg-stone-600 flex'>
-        <Link to={"/lang"}>{lang}</Link>
-        <Link to={"/book"}>{bookList[book]}</Link>   
-        <Link to={"/chapter"}>{chapter}</Link>   
+  const {currentVersion, currentBook, currentChapter} = useContext(BibleContext)
+  
+  return (
+    <nav className='fixed bottom-0 z-10 w-full py-3 bg-stone-600 flex justify-around'>
+      <Link to={`/version`} className='text-white underline'>{currentVersion}</Link>
+      <Link to={"/book"} className='bg-white py-1 px-3 rounded-lg text-lg'>{currentBook.book}:{currentChapter}</Link>
     </nav>
   )
+  
 }
